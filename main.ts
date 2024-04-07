@@ -1,5 +1,7 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
+console.log("Welcome to Currency Converter");
+console.log("-----------------------------")
 let currency: { [key: string]: number } = {
     USD: 1,
     EUR: 0.91,
